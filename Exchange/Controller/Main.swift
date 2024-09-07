@@ -7,7 +7,8 @@
 
 import UIKit
 
-class Main: UITableViewController, UITableViewDragDelegate {
+class Main: UITableViewController {
+     
    
     
     
@@ -26,8 +27,8 @@ class Main: UITableViewController, UITableViewDragDelegate {
         
         title = getDate().precomposedStringWithCanonicalMapping
         
-        tableView.dragDelegate = self
-        tableView.dragInteractionEnabled = true
+//        tableView.dragDelegate = self
+//        tableView.dragInteractionEnabled = true
         self.tableView.dataSource = self
         self.tableView.rowHeight = 70
       
