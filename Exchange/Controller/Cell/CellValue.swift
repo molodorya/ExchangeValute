@@ -9,7 +9,7 @@ import UIKit
 import Foundation
 
 
-class cellValue: UITableViewCell {
+class CellValue: UITableViewCell {
     
     
     @IBOutlet weak var img: UIImageView!
